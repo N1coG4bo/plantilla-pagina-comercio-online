@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "titulo": "5 Beneficios de las Manzanas Orgánicas",
+    "fecha": "12 Oct 2023",
+    "autor": "Juan Agricultor",
+    "imagen": "images/manzana.jpeg",
+    "contenido": "Las manzanas no solo son deliciosas, sino que al ser orgánicas te aseguras de no consumir pesticidas. Son ricas en fibra, vitamina C y antioxidantes...",
+    "resumen": "Descubre por qué deberías incluir manzanas en tu dieta diaria."
+  },
+  {
+    "id": 2,
+    "titulo": "Receta: Batido Detox de Espinaca",
+    "fecha": "05 Nov 2023",
+    "autor": "Maria Chef",
+    "imagen": "images/espinacas.jpg",
+    "contenido": "Para este batido necesitas: un puñado de espinacas, una manzana verde, medio pepino y jugo de limón. Licúa todo con hielo y disfruta de una bomba de vitaminas.",
+    "resumen": "Energía pura y natural en menos de 5 minutos."
+  },
+  {
+    "id": 3,
+    "titulo": "La Importancia de las Abejas",
+    "fecha": "20 Nov 2023",
+    "autor": "Pedro Apicultor",
+    "imagen": "images/miel.jpg",
+    "contenido": "Sin abejas no hay polinización, y sin polinización no hay alimentos. En HuertoHogar cuidamos nuestras colmenas para producir miel 100% respetuosa.",
+    "resumen": "Conoce cómo producimos nuestra miel sin dañar el ecosistema."
+  }
+]
