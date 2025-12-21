@@ -1,8 +1,12 @@
 import { AppRouter } from './routes/AppRouter';
+import { CartProvider } from './context/CartContext'; // <--- Importar
 
 function App() {
   return (
-    <AppRouter />
+    // Envolvemos la app con el proveedor del carrito
+    <CartProvider>
+      <AppRouter />
+    </CartProvider>
   );
 }
 
