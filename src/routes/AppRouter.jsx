@@ -2,10 +2,9 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from '../components/layouts/MainLayout';
 import HomePage from '../pages/public/HomePage';
-import CartPage from '../pages/public/CartPage'; // <--- 1. Importar
-
-// Componente temporal para Productos (lo haremos después)
-const Productos = () => <div className="container mt-5"><h1>Catálogo Completo</h1></div>;
+import CartPage from '../pages/public/CartPage';
+import ProductDetailPage from '../pages/public/ProductDetailPage';
+import CatalogPage from '../pages/public/CatalogPage'; // <--- 1. IMPORTAR ESTO
 
 export const AppRouter = () => {
   return (
@@ -13,10 +12,12 @@ export const AppRouter = () => {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/productos" element={<Productos />} />
           
-          {/* 2. Usar el componente CartPage aquí 👇 */}
+          {/* 2. USAR EL COMPONENTE AQUÍ (No uses el componente 'Productos' temporal) */}
+          <Route path="/productos" element={<CatalogPage />} />
+          
           <Route path="/carrito" element={<CartPage />} />
+          <Route path="/producto/:code" element={<ProductDetailPage />} />
           
           {/* Rutas pendientes */}
           <Route path="/nosotros" element={<div className="container mt-5"><h1>Nosotros</h1></div>} />
